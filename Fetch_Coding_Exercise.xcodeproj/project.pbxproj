@@ -18,6 +18,7 @@
 		7BE119CE2B9FDD0600AF9044 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE119CD2B9FDD0600AF9044 /* Dessert.swift */; };
 		7BE119D02B9FDD1200AF9044 /* DessertDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE119CF2B9FDD1200AF9044 /* DessertDetail.swift */; };
 		7BE119D22B9FDD2900AF9044 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE119D12B9FDD2900AF9044 /* NetworkService.swift */; };
+		7BE119D42B9FE53500AF9044 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7BE119D32B9FE53500AF9044 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7BE119CD2B9FDD0600AF9044 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
 		7BE119CF2B9FDD1200AF9044 /* DessertDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetail.swift; sourceTree = "<group>"; };
 		7BE119D12B9FDD2900AF9044 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7BE119D32B9FE53500AF9044 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		7BE119A52B9FDBD700AF9044 = {
 			isa = PBXGroup;
 			children = (
+				7BE119D32B9FE53500AF9044 /* .gitignore */,
 				7BE119B02B9FDBD700AF9044 /* Fetch_Coding_Exercise */,
 				7BE119AF2B9FDBD700AF9044 /* Products */,
 			);
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BE119B92B9FDBDA00AF9044 /* Preview Assets.xcassets in Resources */,
+				7BE119D42B9FE53500AF9044 /* .gitignore in Resources */,
 				7BE119B62B9FDBDA00AF9044 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

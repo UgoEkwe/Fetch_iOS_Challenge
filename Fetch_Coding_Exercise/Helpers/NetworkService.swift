@@ -15,7 +15,6 @@ enum NetworkError: Error {
     case httpError
     case noData
 }
-
 /*This protocol abstracts network-related logic, decoupling that logic to make the view models easier to test and/or maintain.*/
 protocol NetworkServiceProtocol {
     func fetchDesserts() async throws -> [Dessert]

@@ -14,7 +14,6 @@ struct DessertResponse: Decodable {
    about each meal from the Dessert category endpoint. This information includes
    the id, name, and a URL to an image of the dessert.
 */
-
 struct Dessert: Identifiable, Decodable {
     var id: String
     var name: String

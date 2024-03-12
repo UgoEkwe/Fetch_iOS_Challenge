@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 /* The `DessertImage` struct can display the images of a dessert as well as the images of its ingredients.
  For each ingredient, a url to that ingredients thumbnail is passed from `DessertDetailModal`.
  If the image is not yet loaded or nothing is found, it displays progress indicators.*/

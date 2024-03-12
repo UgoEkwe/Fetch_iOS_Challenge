@@ -9,7 +9,6 @@ import Foundation
 /* The `Difficulty` enum represents the difficlty level of a recipe.
 It has three cases: `easy`, `medium`, and `hard`. Each case is associated with an int value and a description.
 It has a static function `calculateDifficulty()` that calculates the difficulty level of the recipe based on the number of ingredients.*/
-
 enum Difficulty: Int {
     case easy = 1
     case medium = 2

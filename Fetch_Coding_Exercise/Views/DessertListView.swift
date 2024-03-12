@@ -14,7 +14,6 @@ The list of desserts is filtered based on the Published variable `searchText`.
 The initial list of desserts is fetched when the view appears.
 Error messages are displayed on change of networkSError property in view mdoel.
 The design for this view was inspired by https://dribbble.com/shots/20792040-Cookpedia-Food-Recipe-Mobile-App*/
-
 struct DessertListView: View {
     @Environment(\.colorScheme) var colorScheme
     @ObservedObject var dessertViewModel = DessertListViewModel()

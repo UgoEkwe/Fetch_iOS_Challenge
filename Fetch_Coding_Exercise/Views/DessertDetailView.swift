@@ -14,7 +14,6 @@ The detail data is fetched when the view appears.
 A pseudo-modal is presented once the data has been retreived then displays it.
 Error messages are displayed on change of the networkError property in the viewmodel.
 The design for this view was inspired by https://dribbble.com/shots/20792040-Cookpedia-Food-Recipe-Mobile-App*/
-
 struct DessertDetailView: View {
     @Environment(\.colorScheme) var colorScheme
     @Environment(\.presentationMode) var presentationMode

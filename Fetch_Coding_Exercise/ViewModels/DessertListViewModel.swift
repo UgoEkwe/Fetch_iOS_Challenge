@@ -10,7 +10,6 @@ import Foundation
 The `fetchDesserts()` method makes an asynchronous request to fetch all desserts.
 The filteredDesserts method updates the filteredDesserts property whenever
 the values of`searchText` or `desserts` changes.*/
-
 class DessertListViewModel: ObservableObject {
     private var networkService = NetworkService()
     
